@@ -1,0 +1,53 @@
+<div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://www.anglarsports.com/wp-content/uploads/2021/05/Reserve-Edition-All-Sides.-600x960.jpg"
+                style="width:400px">
+            <!-- <img src="https://biggiecricket.com/wp-content/uploads/2022/03/8M7A8710-300x300.jpg" -->
+            <!-- class=" "  style= "width:500px;"alt="..."> -->
+        </div>
+        <div class="carousel-item" style="margin-top: 50px;">
+            <img src="https://th.bing.com/th/id/OIP.bWCX0sdmPid5uqiOIAogRAAAAA?pid=ImgDet&w=350&h=350&rs=1" class=""
+                alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://th.bing.com/th/id/OIP.E26e0Nm_q8Zur2RypcLA9gHaHa?pid=ImgDet&rs=1" class="" alt="">
+        </div>
+        <div class="carousel-item" style="height: 30px; width: 300px;">
+            <img src="https://th.bing.com/th/id/OIP.bG6RUHiVDucpyDvgsB87bwHaJ4?pid=ImgDet&rs=1" class="" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="https://th.bing.com/th/id/OIP.681tz-4NW1BFyJDwD575TgHaHa?pid=ImgDet&rs=1" class="" alt="">
+        </div>
+        <div class="carousel-item" style="margin-top:100px;">
+            <img src="https://th.bing.com/th/id/OIP.ZUbPMy5V4R6TAqcFf2QU6QAAAA?pid=ImgDet&w=300&h=300&rs=1" class=""
+                alt="">
+        </div>
+
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor="let item of productlist">
+            <div class="card col-md-3">
+                <img src="{{item.image}}" alt="">
+                <h5>{{item.title}}</h5>
+                <p>{{item.description}}</p>
+                <p>{{item.price}}</p>
+                <p>{{item.rating}}</p>
+                <button class="btn btn-success" style="font-weight: bold;">Add-To-Cart</button>
+            </div>
+        </ng-container>
+    </div>
+</div>

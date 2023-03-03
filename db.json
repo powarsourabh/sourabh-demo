@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "SS Bat",
+      "price": "300$",
+      "image": "https://th.bing.com/th?id=OIP.EbQHTmJlnuXj1yuQO4HG2AHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
+      "description": "ss is a good compnay of the cricket bat",
+      "rating": 4.5,
+      "category": "cricket-Bat"
+    },
+    {
+      "title": "Leather-Ball",
+      "description": "it is a good leather ball company",
+      "rating": 4,
+      "price": "30$",
+      "image": "https://static.vecteezy.com/system/resources/previews/000/511/294/original/cricket-ball-vector-illustration.jpg",
+      "category": "cricket-ball",
+      "id": 2
+    },
+    {
+      "title": "Helmet",
+      "description": "it is a good Helmet company",
+      "rating": 4.1,
+      "price": "60$",
+      "image": "https://www.khelmart.com/Cricket/zoomer_Image/SG_CH_000101_large.jpg",
+      "category": "cricket-helmet",
+      "id": 3
+    },
+    {
+      "title": "Gloves",
+      "description": "it is a good Glove company",
+      "rating": 4,
+      "price": "40$",
+      "image": "https://www.khelmart.com/Cricket/zoomer_Image/SS_BG_0009_large.jpg",
+      "category": "cricket-gloves",
+      "id": 4
+    },
+    {
+      "title": "Shoes",
+      "description": "it is a Shoes company",
+      "rating": 4.5,
+      "price": "100$",
+      "image": "https://shop.teamsg.in/wp-content/uploads/2021/05/ICON-2-1-scaled.jpg",
+      "category": "cricket-shoes",
+      "id": 5
+    },
+    {
+      "title": "Pad",
+      "description": "it is a good pad company",
+      "rating": 4,
+      "price": "30$",
+      "image": "https://cdn-5c84bc36-b681cbc1.mysagestore.com/b522fd52e101edc926c3308c230445d5/contents/3C12354/3C12354.jpg",
+      "category": "cricket-pads",
+      "id": 6
+    }
+
+
+
+
+
+
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
