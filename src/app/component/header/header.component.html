@@ -11,10 +11,10 @@
               <strong style="color: aliceblue; font-size: xx-large; margin-left: 100px;"> CRICKETMART</strong>
             </li>
             <li class="nav-item" style="font-weight: bold;">
-              <a class="nav-link active" aria-current="page" href="#" style="margin-left: 230px; color: aliceblue;">Home</a>
+              <a class="nav-link active" aria-current="page" href="" style="margin-left: 230px; color: aliceblue;" routerLink="home">Home</a>
             
           </li>
-          <li class="nav-item dropdown" style="font-weight: bold;">
+          <!-- <li class="nav-item dropdown" style="font-weight: bold;">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:aliceblue">
                Products
             </a>
@@ -32,20 +32,20 @@
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Cricket-Pads</a></li>
               <li><hr class="dropdown-divider"></li>
-
+ 
             </ul>
-          </li>
+          </li> -->
           <li class="nav-item" style="font-weight: bold;">
-            <a class="nav-link active" aria-current="page"  style="color: aliceblue;" routerLink="/#">Login</a>
+            <a class="nav-link active" aria-current="page"  style="color: aliceblue;" routerLink="login">Login</a>
           </li>
           
         </ul>
         <form class="d-flex" role="search" style="margin-right: 350px;">
-          <input class="form-control me-2" type="search" placeholder="Search For Products" aria-label="Search" style="width:300px; margin-left: 50px;">
+          <input class="form-control me-2" type="search" [(ngModel)]="searchterm" (keyup)="search($event)" placeholder="Search For Products" aria-label="Search" style="width:300px; margin-left: 50px;">
           <i class="fas fa-search search-icon" style="display: flex; align-items: center; margin-left: -24px; "></i>
           <button class="btn btn-outline-primary" type="submit" style="font-weight: bold;">Search </button>
-          <i style="font-size: 35px; color: aliceblue; margin-left: 250px;" class="fas fa-cart-plus" ></i>
-          <!-- <i class="badge bg-danger">$</i> -->
+          <i style="font-size: 35px; color: aliceblue; margin-left: 200px;"  class="fas fa-cart-plus" routerLink="cart"></i>   
+          <i class="badge bg-danger">{{totalitem}}</i>
         </form>
       </div>
     </div>
